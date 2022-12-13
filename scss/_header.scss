@@ -60,19 +60,21 @@ nav{
 
     }
 
-    #header-flex{
+    .header-flex{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         margin-bottom: 0.5rem;
         background-color: rgb(255, 255, 255);
         top: 0;
         height: 8rem;
+
+        img{
+            width: 8rem;
+            margin-left: -2rem;
+            align-items: center;
+            transform: translateY(-5PX);
+        }
+
     }
     
-    #header-flex img{
-        width: 8rem;
-        margin-left: -2rem;
-        align-items: center;
-        transform: translateY(-5PX);
-    }
