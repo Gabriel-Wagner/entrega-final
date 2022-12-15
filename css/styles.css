@@ -52,26 +52,31 @@ footer {
   margin: 0.9rem;
 }
 
-#formulario-contacto fieldset {
+.formulario-contacto fieldset {
   background-color: rgba(136, 78, 78, 0.1);
   display: inline;
   padding: 2rem;
 }
 
-#formulario-contacto legend {
+.formulario-contacto legend {
   font-size: 1.5rem;
   font-weight: bolder;
   text-align: center;
 }
 
-#formulario-contacto div {
+.formulario-contacto div {
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   margin-top: 3rem;
 }
 
